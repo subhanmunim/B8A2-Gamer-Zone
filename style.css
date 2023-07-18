@@ -1,3 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Noto+Sans:wght@500&family=Poppins:wght@400;500;600&family=Roboto:ital,wght@1,900&family=Work+Sans:ital,wght@0,500;0,600;1,400&display=swap');
+
+/* sharet styles */
 * {
+    margin: 0;
     padding: 0;
+    box-sizing: border-box;
+    font-family: 'Work Sans';
+}
+
+span {
+    color: #FF42A5;
+}
+
+/* header styles */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 150px;
+    align-items: center;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+}
+
+.nav-logo {
+    display: flex;
+    align-items: center;
+}
+
+.nav-logo img {
+    width: 50px;
+    height: 30px;
+}
+
+.nav-logo h1 {
+    color: #0B0223;
+    font-size: 2.8rem;
+    font-weight: 700;
+    font-size: 45px;
+    margin-left: 10px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+
+}
+
+nav ul li {
+    list-style: none;
+    margin-right: 20px;
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #3C354F;
+    font-weight: 500;
+    font-size: 1.10rem;
+}
+
+nav ul li a .fa-youtube {
+    color: red;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+nav .active {
+    background-color: rgba(11, 2, 35, 0.10);
+    border-radius: 8px;
+    padding: 10px 20px;
 }
